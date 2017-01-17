@@ -20,5 +20,3 @@ sh copyReportsAndNotifyTestNow.sh
 
 nohup sudo sh #{basePath}/cleanup.sh &
 echo "Automation test execution done............................................................."
-
-cmd

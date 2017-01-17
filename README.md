@@ -26,7 +26,7 @@ Note : Make sure you didn't get any error while pressed enter.
 
 Step4 - Go to power shell again and run below command. ( Make sure you have setup Environment variable and run vbs file on same shell only)
 
-PS C:\> Cscript "<Path of RunURLTest.vbs script where you have cloned from GIT>"  "<Path of UFT test case folder>"    Press Enter
+PS C:\> Cscript "< Path of RunURLTest.vbs script where you have cloned from GIT >"  "< Path of UFT test case folder >"    Press Enter
 
 
 This will do following task.

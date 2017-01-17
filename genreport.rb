@@ -25,7 +25,7 @@ xmldoc = Document.new File.new("#{CODE_PATH}/#{OUTPUT_DIR}/run_results.xml")
        name = e.elements["Name"].text
        scenario_data = JSON.parse('{}')
        scenario_data['name'] = e.elements["Name"].text
-       scenario_data['duration'] =  e.elements["StartTime"].text
+       # scenario_data['duration'] =  '0'
        status = e.elements["Result"].text
        puts status
        if status == "Done"
